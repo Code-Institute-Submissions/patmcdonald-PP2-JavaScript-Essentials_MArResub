@@ -4,9 +4,36 @@
 
 
 body {
+   background-color: antiquewhite;
    color: green;
+   font-family: 'Montserrat', sans-serif;
 }
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+
+.container {
+   max-width: 30rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.card {
+   
+}
+
+.create-task {
+   display: flex;
+   flex-direction: column;
+   font-family: 'Nunito', sans-serif;
+   font-size: 1rem;
+}
+
+.task-input {
+
+}
+
+.submit-task {
+
+}
