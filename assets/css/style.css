@@ -20,10 +20,11 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .card {
-   
+   /* display: flex; */
+   text-align: center;
 }
 
-.create-task {
+.add-task {
    display: flex;
    flex-direction: column;
    font-family: 'Nunito', sans-serif;
