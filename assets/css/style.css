@@ -20,7 +20,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .card {
-   /* display: flex; */
+   display: flex; 
    text-align: center;
 }
 
@@ -29,12 +29,13 @@ font-family: 'Open Sans', sans-serif; */
    flex-direction: column;
    font-family: 'Nunito', sans-serif;
    font-size: 1rem;
+   /* margin-bottom: 1rem; */
 }
 
 .task-input {
-
+/* margin-top: 1rem; */
 }
 
 .submit-task {
-
+   
 }

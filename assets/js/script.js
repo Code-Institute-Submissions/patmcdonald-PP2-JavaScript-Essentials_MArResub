@@ -3,6 +3,8 @@
 
 // define what a task is
 let task = document.querySelector()
+// input task in textfield
+const taskInput = document.querySelector(".add-task task-input")
 
 // store a tasks in an array
 let tasks = []
