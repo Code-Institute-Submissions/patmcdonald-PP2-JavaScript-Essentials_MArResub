@@ -2,15 +2,18 @@
 // Some basic functions for the app
 
 // define what a task is
-let task = document.querySelector()
+let task = taskInput
 // input task in textfield
-const taskInput = document.querySelector(".add-task task-input")
+
 
 // store a tasks in an array
 let tasks = []
 
 // add a task
-function addTask()
+function addTask() {
+    document.getElementById('task-input')
+
+}
 
 // display a task
 function displaytask()
@@ -23,3 +26,30 @@ function editTask()
 
 // delete/remove task
 function deleteTask()
+
+// https://medium.com/swlh/using-local-storage-with-javascript-cb3713ca56c4
+// Code below is adapted from above to work with html elements for testing
+
+const storageInput = document.querySelector('.storage');
+const text = document.querySelector('.text');
+const button = document.querySelector('.btn');
+
+// Event Listener that listens to input
+storageInput.addEventListener('input', name => {
+    text.textContent = name.target.value
+})
+
+// Saving to localstorage
+
+const saveToLocal = () => {
+    // What this does is to save to localStorage the textContent of the paragraph field. But remember we are getting the textContent value from the input field.
+    localStorage.setItem('textInput', text.textContent)
+}
+
+button.addEventListener('click', saveToLocal)
+
+const storedInput = localStorage.getItem('textInput')
+
+if (storageInput) {
+    text.textContent = storedInput;
+}
