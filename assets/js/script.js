@@ -3,21 +3,38 @@
 
 
 
-// task input methods
+// task input method
 let taskForm = document.querySelector('.task-form')
 
-let taskInput = document.querySelector('.task-input')
+
 
 let submitBtn = document.querySelector('.submit-btn')
 
 let taskList = document.querySelector('.task-list')
 
+// let taskInput = document.querySelector('task-input')
+
+// localStorage functionality
+// save a task
+function saveTask() {
+    let taskInput = document.getElementById('task-input').innerText
+    localStorage.setItem('task', JSON.stringify(this.task))
+}
+
+
 // Wait for the DOM to load 
-document.addEventListener("DOMContentLoaded", taskInput)
-submitBtn.addEventListener('click', taskList)
-taskList.addEventListener()
+document.addEventListener("DOMContentLoaded")
+submitBtn.addEventListener('click', saveTask)
+// taskList.addEventListener() //check back here!
 
-
+// function mySave() {
+//     var myContent = document.getElementById("myTextarea").value;
+//     localStorage.setItem("myContent", myContent);
+//   }
+//   function myLoad() {
+//     var myContent = localStorage.getItem("myContent");
+//     document.getElementById("myTextarea").value = myContent;
+//   }
 
 // // define what a task is
 // let task = taskInput

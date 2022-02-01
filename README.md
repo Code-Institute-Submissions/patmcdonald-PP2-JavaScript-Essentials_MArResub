@@ -15,3 +15,5 @@ https://developer.chrome.com/docs/devtools/storage/localstorage/
 https://buttonbuddy.dev/
 
 https://moderncss.dev/
+
+got localStorage working - strings not saved by data is being read from inputbox!
