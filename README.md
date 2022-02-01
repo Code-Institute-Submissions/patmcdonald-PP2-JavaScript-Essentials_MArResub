@@ -9,3 +9,9 @@ https://www.w3schools.com/html/html5_webstorage.asp
 
 https://developer.chrome.com/docs/devtools/storage/localstorage/
 
+
+- CSS docs
+
+https://buttonbuddy.dev/
+
+https://moderncss.dev/
