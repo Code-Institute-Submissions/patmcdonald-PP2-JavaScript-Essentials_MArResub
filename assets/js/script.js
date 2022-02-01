@@ -2,6 +2,7 @@
 // Some basic functions for the app
 
 
+
 // task input methods
 let taskForm = document.querySelector('.task-form')
 
@@ -11,6 +12,10 @@ let submitBtn = document.querySelector('.submit-btn')
 
 let taskList = document.querySelector('.task-list')
 
+// Wait for the DOM to load 
+document.addEventListener("DOMContentLoaded", taskInput)
+submitBtn.addEventListener('click', taskList)
+taskList.addEventListener()
 
 
 
