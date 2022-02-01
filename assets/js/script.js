@@ -2,7 +2,14 @@
 // Some basic functions for the app
 
 
+// task input methods
+let taskForm = document.getElementById('.task-form')
 
+let taskInput = document.getElementById('.task-input')
+
+let taskList = document.getElementById('.task-list')
+
+let submitBtn = document.getElementById('.submit-btn')
 
 
 // // define what a task is
