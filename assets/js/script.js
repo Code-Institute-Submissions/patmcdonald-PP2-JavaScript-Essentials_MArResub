@@ -17,8 +17,8 @@ let taskList = document.querySelector('.task-list')
 // localStorage functionality
 // save a task
 function saveTask() {
-    let taskInput = document.getElementById('task-input').innerText
-    localStorage.setItem('task', JSON.stringify(this.task))
+    let taskInput = document.getElementById('task-input').onclick.submitBtn
+    localStorage.setItem('task', JSON.stringify(this.taskInput))
 }
 
 
