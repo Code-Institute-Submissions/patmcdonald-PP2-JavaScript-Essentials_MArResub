@@ -24,9 +24,8 @@ header {
    
 }
 
-#task-form #task-input {
+#task-input {
    display: inline-flex
-   flex-direction: column;
    font-family: 'Nunito', sans-serif;
    font-size: 2rem;
    width: 20rem;
@@ -36,21 +35,16 @@ header {
 {
     outline: none;
     padding: 0.5rem;
-    font-size: 2rem;
-    border: none;
+    font-size: 1.5rem;
+    border: 2px;
     background: white;
     border-radius: 0;
-    
-    
-}
-#submit-btn
-{
     color: #e75f11;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
     display: inline-flex;
-    size: 2rem;
+    
 }
 form button:hover
 {
