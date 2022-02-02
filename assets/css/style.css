@@ -26,10 +26,6 @@ header {
 .task-logo {
    float: right;
 }
-/* .card {
-   display: flex; 
-   text-align: center;
-} */
 
 .add-task {
    display: flex;
@@ -39,7 +35,11 @@ header {
    /* margin-bottom: 1rem; */
 }
 
-.task-input {
+#task-form {
+
+}
+
+#task-input {
 /* margin-top: 1rem; */
 }
 
@@ -47,6 +47,6 @@ header {
 
 }
 
-.submit-btn {
-   
+#submit-btn {
+   size: 1.5rem;
 }

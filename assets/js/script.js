@@ -1,10 +1,21 @@
 // taskie is a ToDo list app
 // Some basic functions for the app
 
+// Wait for the DOM to load 
+// https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
 
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed')
+})
 
 // task input method
-let taskForm = document.querySelector('.task-form')
+const taskForm = document.querySelector('.task-form')
+let tasks = []
+
+taskForm.addEventListener('submit', function(f)) {
+    f.preventDefault()
+
+}
 
 
 
@@ -16,16 +27,15 @@ let taskList = document.querySelector('.task-list')
 
 // localStorage functionality
 // save a task
-function saveTask() {
-    let taskInput = document.getElementById('task-input').onclick.submitBtn
-    localStorage.setItem('task', JSON.stringify(this.taskInput))
-}
+// function saveTask() {
+//     let taskInput = document.getElementById('task-input').onclick.submitBtn
+//     localStorage.setItem('task', JSON.stringify(this.taskInput))
+// }
 
 
-// Wait for the DOM to load 
-document.addEventListener("DOMContentLoaded")
-submitBtn.addEventListener('click', saveTask)
-// taskList.addEventListener() //check back here!
+
+// submitBtn.addEventListener('click', saveTask)
+// // taskList.addEventListener() //check back here!
 
 // function mySave() {
 //     var myContent = document.getElementById("myTextarea").value;
