@@ -27,20 +27,12 @@ header {
    float: right;
 }
 
-.add-task {
+#task-form #task-input {
    display: flex;
    flex-direction: column;
    font-family: 'Nunito', sans-serif;
    font-size: 1rem;
-   /* margin-bottom: 1rem; */
-}
-
-#task-form {
-
-}
-
-#task-input {
-/* margin-top: 1rem; */
+   width: 20rem;
 }
 
 #task-list {
@@ -49,4 +41,5 @@ header {
 
 #submit-btn {
    size: 1.5rem;
+   display: flex;
 }
