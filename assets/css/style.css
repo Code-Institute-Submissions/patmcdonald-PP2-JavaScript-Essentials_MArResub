@@ -21,19 +21,47 @@ header {
    max-width: 30rem;
    margin-right: auto;
    margin-left: auto;
+   
+}
+
+#task-form #task-input {
+   display: inline-flex
+   flex-direction: column;
+   font-family: 'Nunito', sans-serif;
+   font-size: 2rem;
+   width: 20rem;
+}
+
+#submit-btn
+{
+    outline: none;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    border-radius: 0;
+    
+    
+}
+#submit-btn
+{
+    color: #fda085;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    size: 2rem;
+}
+form button:hover
+{
+    color: white;
+    background-color: #fda085;
 }
 
 .task-logo {
    float: right;
 }
 
-#task-form #task-input {
-   display: flex;
-   flex-direction: column;
-   font-family: 'Nunito', sans-serif;
-   font-size: 2rem;
-   width: 20rem;
-}
 
 #task-list {
 
@@ -41,5 +69,5 @@ header {
 
 #submit-btn {
    size: 2rem;
-   display: flex;
+   display: inline-flex;
 }
