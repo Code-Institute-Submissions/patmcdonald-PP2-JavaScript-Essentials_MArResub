@@ -20,17 +20,26 @@
                     <span class="task-logo"><i class="fas fa-tasks"></i></span>
                 </h1>
             </header>
-            
+            <!-- Add new task to list -->
               <form id="task-form">
-                <input type="text" id="task-input" />
+                <input type="text" id="task-input" placeholder="New Task" required/>
                 <button id="submit-btn" type="submit">
                   <i class="fas fa-plus"></i>
                 </button>
               </form>
 
-            <ul class="task-list">
+            <div id="task-list">
+                <!-- task template will render here -->
+            </div>
+              <!-- task template code will render as tasks are read from localStorage -->
+              <template id="task-template">
+                <div class="task-row">
+                  <input type="button" class="task-del" value="&#10006;"/>
+                  <div class="task-item"></div>
+                  <input type="button" class="task-done" value="&#10004;"/>
+                </div>
+              </template>
 
-            </ul>
         </div>
         
     <script src="assets/js/script.js"></script>
