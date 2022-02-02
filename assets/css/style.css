@@ -45,7 +45,7 @@ header {
 }
 #submit-btn
 {
-    color: #fda085;
+    color: #e75f11;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -55,7 +55,7 @@ header {
 form button:hover
 {
     color: white;
-    background-color: #fda085;
+    background-color: ##e75f1;
 }
 
 .task-logo {
@@ -65,9 +65,4 @@ form button:hover
 
 #task-list {
 
-}
-
-#submit-btn {
-   size: 2rem;
-   display: inline-flex;
 }
