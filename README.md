@@ -3,17 +3,15 @@
 - style with css
 - add JS functionality in iteration
 
+- resources and code used to help build this project:
+
 https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
 https://www.w3schools.com/html/html5_webstorage.asp
 
 https://developer.chrome.com/docs/devtools/storage/localstorage/
 
+https://code-boxx.com/simple-javascript-to-do-list/
 
-- CSS docs
 
-https://buttonbuddy.dev/
-
-https://moderncss.dev/
-
-got localStorage working - strings not saved by data is being read from inputbox!
+got localStorage working, `<template>` element not rendering.
