@@ -57,6 +57,8 @@ form button:hover
 }
 
 
-#task-list {
 
+#task-form, .task-row {
+   display: flex;
+   align-items: center;
 }
