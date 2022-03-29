@@ -1,12 +1,15 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,100&family=Nunito+Sans&family=Open+Sans:wght@300&display=swap');
 
-
+* {
+   font-family:'Montserrat', sans-serif;
+   box-sizing: border-box;
+ }
 
 body {
    background-color: antiquewhite;
    color: green;
-   font-family: 'Montserrat', sans-serif;
+   /* font-family: 'Montserrat', sans-serif; */
 }
 
 /* font-family: 'Montserrat', sans-serif;
@@ -58,7 +61,11 @@ form button:hover
 
 
 
-#task-form, .task-row {
+#task-form,
+.task-row {
    display: flex;
    align-items: center;
+}
+.task-row {
+   justify-content: space-between;
 }
