@@ -72,12 +72,17 @@ form button:hover
 .task-row {
    display: flex;
    align-items: center;
-}
-
-.task-row {
    justify-content: space-between;
    background-color: white;
    width: 20rem;
    height: 2rem;
    font-size: 1.5rem;
 }
+
+/* .task-row {
+   justify-content: space-between;
+   background-color: white;
+   width: 20rem;
+   height: 2rem;
+   font-size: 1.5rem;
+} */
