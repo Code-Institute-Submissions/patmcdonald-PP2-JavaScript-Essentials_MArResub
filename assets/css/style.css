@@ -73,23 +73,6 @@ form button:hover
    float: right;
 }
 
-
-
-/* #task-form,
-.task-row {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   background-color: white;
-   width: 20rem;
-   height: 2rem;
-   font-size: 1.5rem;
-} */
-
-/* .task-done {
-   text-decoration: line-through;
-} */
-
 .task-row {
    display: flex;
    justify-content: space-between;
@@ -97,8 +80,4 @@ form button:hover
    width: 20rem;
    height: 2rem;
    font-size: 1.5rem;
-}
-
-.task-done {
-   text-decoration: line-through;
 }

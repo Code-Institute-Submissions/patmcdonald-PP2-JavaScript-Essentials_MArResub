@@ -15,3 +15,4 @@ https://code-boxx.com/simple-javascript-to-do-list/
 
 
 got localStorage working, `task-done` line through not working
+responsive elements not working yet.
