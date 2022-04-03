@@ -14,4 +14,4 @@ https://developer.chrome.com/docs/devtools/storage/localstorage/
 https://code-boxx.com/simple-javascript-to-do-list/
 
 
-got localStorage working, `<template>` element not rendering.
+got localStorage working, `task-done` line through not working

@@ -67,7 +67,7 @@ let task = {
       task.save()
     },
   
-    // delete tasl
+    // delete task
     del: (id) => { if (confirm("Delete task?")) {
       task.data.splice(id, 1)
       task.save()
